@@ -3,9 +3,14 @@
   "description": "Sima2204 Virtual Keyboard",
   "private": true,
   "name": "virtual-keyboard",
+  "repository": {
+    "url": "git+https://github.com/Sima2204/virtual-keyboard.git"
+  },
   "scripts": {
     "start": "rss-scripts start",
-    "build": "rss-scripts build"
+    "build": "webpack --mode=development",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "eslint": "^8.33.0",
