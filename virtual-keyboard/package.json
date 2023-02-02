@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "description": "Sima2204 Virtual Keyboard",
+  "private": true,
+  "name": "virtual-keyboard",
+  "scripts": {
+    "start": "rss-scripts start",
+    "build": "rss-scripts build"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "rss-scripts": "^0.2.4"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
